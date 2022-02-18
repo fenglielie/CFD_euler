@@ -12,7 +12,7 @@ DG_init, DG_get_dt, DG_update, DG_error, DG_output
 #include "MyMatrixBase/MyMatrixBase.h"
 
 #include "Cell/Cell.h"
-#include "instance/Instance.h"
+#include "Instance/Instance.h"
 #include "DG/Fun/Fun.h"
 
 #ifndef DG_STR_LEN
