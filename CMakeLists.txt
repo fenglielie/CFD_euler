@@ -12,6 +12,7 @@ set(MY_EXTRA_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../Base)
 
 # for gprof
 if(MY_GPROF)
+    message(">> with Gprof")
     SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
     SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pg")
     SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pg")
