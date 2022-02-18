@@ -62,24 +62,12 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
     // 以上给出了对于所有分量上的测试函数返回的结果，据此进行计算增量
     // 此后可以拆解各个分量进行
 
-    matrix A = newMatrix(k_2d, k_2d);
-    vector<double> u1(k_2d, 0);
-    vector<double> u2(k_2d, 0);
-    // 基函数相互内积
-    for (index i = 0; i < k_2d; i++) {
-        u1[i] = 1;
-        for (index j = 0; j < k_2d; j++) {
-            u2[j] = 1;
-            A[i][j] = SurfaceIntegrate_init_inner_product(gauss_k, the_cells[cell_index], base_fun_2d, u1, base_fun_2d, u2);
-            u2[j] = 0;
-        }
-        u1[i] = 0;
-    }
+    matrix A = the_cells[cell_index].get_A_matrix();
 
     matrix result = the_datas[cell_index];
     vector<double> b(k_2d, 0);
     for (index i = 0; i < output_len; i++) {
-        b = item_main[i] + dt * (item_Fu[i] -  item_edge[i]);
+        b = item_main[i] + dt * (item_Fu[i] - item_edge[i]);
         result[i] = Gauss_Elimination(A, b);
     }
 

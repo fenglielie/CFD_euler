@@ -102,7 +102,7 @@ vector<int> Cell::get_neighbors_list() const
 }
 
 
-matrix Cell::get_outside_vector() const
+void Cell::set_outsides_vector()
 {
     matrix nodes = get_nodes_list();
     index len = nodes.size();
@@ -120,7 +120,7 @@ matrix Cell::get_outside_vector() const
         u = v;
         v = -temp;
         // 单位化
-        temp =sqrt(u * u + v * v);
+        temp = sqrt(u * u + v * v);
         u = u / temp;
         v = v / temp;
 
@@ -135,12 +135,17 @@ matrix Cell::get_outside_vector() const
         outs[1] = outs_old[2];
         outs[2] = outs_old[0];
     }
+    _outsides_vector = outs;
 
-    return outs;
+    return;
 }
 
+matrix Cell::get_outside_vector() const
+{
+    return _outsides_vector;
+}
 
-vector<double> Cell::get_sides_length() const
+void Cell::set_sides_length()
 {
     matrix nodes = get_nodes_list();
     index len = nodes.size();
@@ -161,8 +166,24 @@ vector<double> Cell::get_sides_length() const
         lengths[2] = lengths_old[0];
     }
 
-    return lengths;
+    _sides_length = lengths;
+    return;
 }
+
+vector<double> Cell::get_sides_length() const
+{
+    return _sides_length;
+}
+
+void Cell::set_A_matrix(matrix &A)
+{
+    _A_matrix = A;
+}
+matrix Cell::get_A_matrix() const
+{
+    return _A_matrix;
+}
+
 
 void read_cell(Cell the_cell)
 {

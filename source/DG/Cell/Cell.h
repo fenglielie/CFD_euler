@@ -22,9 +22,17 @@ private:
     // 矩形单元 相邻单元-邻边 直接对应 一共四组
     // 逆时针排序，下->右->上->左
     // 四个顶点 逆时针排序，左下->右下->右上->左上
+
+    matrix _outsides_vector;
+    vector<double> _sides_length;
+    matrix _A_matrix;
+
 public:
     Cell(/* args */);
     ~Cell();
+
+    void set_A_matrix(matrix &A);
+    matrix get_A_matrix() const;
 
     char get_visit_flag(void);
     void set_visit_flag(char flag_for_visit);
@@ -47,8 +55,11 @@ public:
     // 获取所有邻居索引的列表
     vector<int> get_neighbors_list() const;
 
+    void set_outsides_vector();
     // 获取所有边的单位外法向量
     matrix get_outside_vector() const;
+
+    void set_sides_length();
     // 获取所有边的长度
     vector<double> get_sides_length() const;
 

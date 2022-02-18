@@ -74,6 +74,9 @@ vector<Cell> create_triangle_cell_from_file(const char *nodefile_name, const cha
             ++element_index;
             ++side_index;
         }
+
+        cells[i].set_outsides_vector();
+        cells[i].set_sides_length();
     }
 
     return cells;

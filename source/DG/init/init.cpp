@@ -1,6 +1,6 @@
 #include "init.h"
 
-supermatrix init(const Instance *the_instance_p, const vector<Cell> &the_cells, vector<double> &init_args)
+supermatrix init(const Instance *the_instance_p, vector<Cell> &the_cells, vector<double> &init_args)
 {
     int output_len = the_instance_p->get_output_len();
     index cell_num = the_cells.size();
@@ -13,7 +13,7 @@ supermatrix init(const Instance *the_instance_p, const vector<Cell> &the_cells, 
     index gauss_k = init_args[1];
 
     matrix temp(output_len);
-    supermatrix result(cell_num,temp);
+    supermatrix result(cell_num, temp);
 
     for (index i = 0; i < cell_num; i++) {
         for (int j = 0; j < output_len; j++)
@@ -24,7 +24,7 @@ supermatrix init(const Instance *the_instance_p, const vector<Cell> &the_cells, 
 }
 
 
-vector<double> init_cell(const Instance *the_instance_p, const Cell &the_cell, int value_index, index k_2d, index gauss_k)
+vector<double> init_cell(const Instance *the_instance_p, Cell &the_cell, int value_index, index k_2d, index gauss_k)
 {
     vector<double> result(k_2d, 0);
     vector<double> u1(k_2d, 0);
@@ -41,6 +41,9 @@ vector<double> init_cell(const Instance *the_instance_p, const Cell &the_cell, i
         }
         u1[i] = 0;
     }
+    the_cell.set_A_matrix(A);
+
+    // 在这里基于这个单元,绑定它需要的Cell
 
     vector<double> b(k_2d, 0);
     for (index i = 0; i < k_2d; i++) {

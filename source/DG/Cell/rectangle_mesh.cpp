@@ -80,6 +80,9 @@ Cell create_rectangle_cell_base(int i, int j, double x1, double x2, double y1, d
     result.set_neighbor_init(cell_up, side_up, x2, y2);
     result.set_neighbor_init(cell_left, side_left, x1, y2);
 
+    result.set_outsides_vector();
+    result.set_sides_length();
+
     return result;
 }
 

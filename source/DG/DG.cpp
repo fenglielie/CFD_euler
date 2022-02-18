@@ -21,7 +21,7 @@ DG::~DG()
 {
 }
 
-supermatrix DG::DG_init(const Instance *the_instance_p, const vector<Cell> &the_cells, vector<double> &init_args)
+supermatrix DG::DG_init(const Instance *the_instance_p, vector<Cell> &the_cells, vector<double> &init_args)
 {
     if (init_args.size() < 2) {
         fprintf(stderr, "DG_init: init_args.size() < 2 [error]\n");
@@ -49,7 +49,7 @@ double DG::DG_get_dt(const Instance *the_instance_p, const supermatrix &the_data
     return get_dt(the_instance_p, the_datas, the_cells, dt_args);
 }
 
-supermatrix DG::DG_update( const Instance *the_instance_p, const supermatrix &the_datas, vector<Cell> &the_cells, vector<double> &update_args)
+supermatrix DG::DG_update(const Instance *the_instance_p, const supermatrix &the_datas, vector<Cell> &the_cells, vector<double> &update_args)
 {
     if (update_args.size() < 3) {
         fprintf(stderr, "DG_update: update_args.size() < 3 [error]\n");

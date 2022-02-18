@@ -27,9 +27,9 @@ public:
     ~DG();
 
     // 初始化, 获取数据结构
-    static supermatrix DG_init(const Instance *the_instance_p, const vector<Cell> &the_cells, vector<double> &init_args);
+    static supermatrix DG_init(const Instance *the_instance_p, vector<Cell> &the_cells, vector<double> &init_args);
     // 获取时间步长dt, 需要Fun
-    static double DG_get_dt( const Instance *the_instance_p, const supermatrix &the_datas, const vector<Cell> &the_cells, vector<double> &dt_args);
+    static double DG_get_dt(const Instance *the_instance_p, const supermatrix &the_datas, const vector<Cell> &the_cells, vector<double> &dt_args);
     // 更新, 这里cells不能是const，需要Fun
     static supermatrix DG_update(const Instance *the_instance_p, const supermatrix &the_datas, vector<Cell> &the_cells, vector<double> &update_args);
     // 误差计算
