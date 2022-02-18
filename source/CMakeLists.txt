@@ -22,7 +22,7 @@ add_subdirectory(simple_Instance)
 
 # 测试部分
 # 组成部分的分块测试
-add_subdirectory(partoftest)
+# add_subdirectory(partoftest)
 # 整体的测试，基于算例
 add_subdirectory(test)
 
