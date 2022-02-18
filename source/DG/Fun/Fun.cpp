@@ -33,12 +33,14 @@ vector<double> Fun::change_to_noconversation_vars(vector<double> c_vars) const
 matrix Fun::Fu(vector<double> vars) const
 {
     matrix result = newMatrix(2, _output_len);
+    fprintf(stderr, "Fun::Fu: this should not be uesd\n");
     return result;
 }
 
 matrix Fun::get_jacobi_eigenvalues(vector<double> vars) const
 {
     matrix result = newMatrix(2, _output_len);
+    fprintf(stderr, "Fun::get_jacobi_eigenvalues: this should not be uesd\n");
     return result;
 }
 

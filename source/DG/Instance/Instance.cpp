@@ -40,7 +40,6 @@ void Instance::with_Fun(const Fun *fun_p)
 vector<Cell> Instance::create_cells()
 {
     fprintf(stderr, "Instance::create_cells: this should not be used\n");
-
     vector<Cell> temp(_output_len);
     return temp;
 }
