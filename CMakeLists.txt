@@ -11,12 +11,16 @@ set(MY_EXTRA_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../Base)
 
 
 # for gprof
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pg")
-SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pg")
-SET(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pg")
-
-
+if(MY_GPROF)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
+    SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pg")
+    SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pg")
+    SET(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pg")
+endif()
+# run a.exe first
+# then there will be a gmout.out (recovered automaticlly)
+# gprof a.exe gmout.out > a.txt
+# then there will be an a.txt
 
 #---------------------------------------------#
 # the CMakeLists.txt module for project begin:
