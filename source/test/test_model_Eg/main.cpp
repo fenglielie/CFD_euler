@@ -19,12 +19,12 @@ int main(int argc, char *argv[])
 
     // int x_num = atoi(argv[1]);
     // int y_num = atoi(argv[2]);
-    int x_num = 4;
-    int y_num = 3;
+    int x_num = 16;
+    int y_num = 16;
 
-    printf("x_num=%d, y_num=%d\n",x_num,y_num);
+    printf("x_num=%d, y_num=%d\n", x_num, y_num);
 
-    index k = 1;
+    index k = 2;
     index gauss_k = 3;
 
     double time_now = 0;
@@ -64,21 +64,21 @@ int main(int argc, char *argv[])
     vector<double> middle_error;
     double dt_now = DG::DG_get_dt(my_instance_p, my_datas, my_cells, dt_args);
     printf("dt_now = %f\n", dt_now);
-/*
-    update_args[1] = dt_now;
-    my_datas = DG::DG_update(my_instance_p, my_datas, my_cells, update_args);
+    /*
+        update_args[1] = dt_now;
+        my_datas = DG::DG_update(my_instance_p, my_datas, my_cells, update_args);
 
-    error_args[2] = 0 + dt_now;
-    middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
+        error_args[2] = 0 + dt_now;
+        middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
 
-    printf("one step error\n");
-    readVector(middle_error);
-    printf("\n");
+        printf("one step error\n");
+        readVector(middle_error);
+        printf("\n");
 
-    readMatrix(my_datas[0]);
+        readMatrix(my_datas[0]);
 
-    return 0;
-*/
+        return 0;
+    */
     index i;
     for (i = 0; i < ITERATION_MAX && (exit_flag == false); ++i) {
 
@@ -88,8 +88,8 @@ int main(int argc, char *argv[])
             dt_now = time_end - time_now;
             exit_flag = true;
         }
-        printf("i=%d,time_now=%f,dt_now=%f\n", i, time_now, dt_now);
-        // 这里先设置update_args
+        // printf("i=%d,time_now=%f,dt_now=%f\n", i, time_now, dt_now);
+        //  这里先设置update_args
         update_args[1] = dt_now;
 
         my_datas = DG::DG_update(my_instance_p, my_datas, my_cells, update_args);
@@ -99,13 +99,15 @@ int main(int argc, char *argv[])
         // 这里可以进行check
 
         time_now = time_now + dt_now;
+        /*
+                error_args[2] = time_now;
+                middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
 
-        error_args[2] = time_now;
-        middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
 
-        printf("[%d]middle error\n", i);
-        readVector(middle_error);
-        printf("\n");
+                printf("[%d]middle error\n", i);
+                readVector(middle_error);
+                printf("\n");
+                */
     }
 
     // 这里先设置error_args
