@@ -68,4 +68,5 @@ public:
 
     // 友元函数，周期性修正
     friend void period_modify_rectangle_cells(vector<Cell> &the_cells, int x_num, int y_num);
+    friend void period_modify_triangle_cells(vector<Cell> &the_cells, int flag);
 };

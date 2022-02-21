@@ -40,7 +40,23 @@ double get_dt_cell(const Instance *the_instance_p, const matrix &data, const Cel
         double dy = cellnodes[2][1] - cellnodes[1][1];
 
 
-        result = cfl / (2 * k + 1) * (dx + dy) / (lambda_x + lambda_y);// TODO
+        result = cfl / (2 * k + 1) * (dx + dy) / (lambda_x + lambda_y); // TODO
+    }
+    else if (cell.get_cellKind() == 3) {
+        // 三角形单元
+        vector<double> values(output_len);
+        for (int j = 0; j < output_len; j++) {
+            values[j] = base_fun_2d_evalue(base_fun_2d, data[j], 1.0 / 3, 1.0 / 3);
+        }
+        matrix jacobis = the_instance_p->_fun_p->get_jacobi_eigenvalues(values);
+        double lambda_x = norm_inf(jacobis[0]);
+        double lambda_y = norm_inf(jacobis[1]);
+
+        double cfl = dt_args[0];
+        double k = dt_args[1];
+        vector<double> length = cell.get_sides_length();
+
+        result = cfl / (2 * k + 1) * (length[0] + length[1] + length[2]) / (lambda_x + lambda_y);
     }
     else {
         // TODO

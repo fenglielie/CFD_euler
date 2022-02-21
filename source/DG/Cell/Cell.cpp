@@ -89,6 +89,15 @@ vector<int> Cell::get_sides_list() const
     for (int i = 0; i < _neighborNum; i++) {
         sides[i] = _sides[i];
     }
+
+    if (_cellKind == 3) {
+        // 顶点有错位，需要修正和邻居/邻边的序号一致
+        vector<int> sides_old = sides;
+        sides[0] = sides_old[1];
+        sides[1] = sides_old[2];
+        sides[2] = sides_old[0];
+    }
+
     return sides;
 }
 
@@ -98,6 +107,15 @@ vector<int> Cell::get_neighbors_list() const
     for (int i = 0; i < _neighborNum; i++) {
         neighbors[i] = _neighbors[i];
     }
+
+    if (_cellKind == 3) {
+        // 顶点有错位，需要修正和邻居/邻边的序号一致
+        vector<int> neighbors_old = neighbors;
+        neighbors[0] = neighbors_old[1];
+        neighbors[1] = neighbors_old[2];
+        neighbors[2] = neighbors_old[0];
+    }
+
     return neighbors;
 }
 

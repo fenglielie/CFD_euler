@@ -45,7 +45,7 @@ vector<double> simple_Instance::value_init(double x, double y) const
     index output_len = get_output_len();
     vector<double> result(output_len);
 
-    result[0] = 1 + 0.2 * sin(pi *x);
+    result[0] = 1 + 0.2 * sin(pi * x);
     result = _fun_p->change_to_conversation_vars(result);
 
     return result;

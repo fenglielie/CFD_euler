@@ -71,7 +71,7 @@ void change_to_global(double &x, double &y, Cell the_cell)
         return;
     }
     else {
-        fprintf(stderr, "change_to_local: 未知的cellKind\n");
+        fprintf(stderr, "change_to_global: 未知的cellKind\n");
     }
     return;
 }

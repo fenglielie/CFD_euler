@@ -67,6 +67,10 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
     matrix result = the_datas[cell_index];
     vector<double> b(k_2d, 0);
     for (index i = 0; i < output_len; i++) {
+        printf("h\n");
+        readVector(item_main[i]);
+        readVector(item_Fu[i]);
+        readVector(item_edge[i]);
         b = item_main[i] + dt * (item_Fu[i] - item_edge[i]);
         result[i] = Gauss_Elimination(A, b);
     }

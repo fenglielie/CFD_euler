@@ -9,4 +9,4 @@ vector<Cell> create_triangle_cell_from_file(const char *nodefile_name, const cha
 
 matrix read_matrix_from_file(const char *str, index len);
 
-
+void period_modify_triangle_cells(vector<Cell> &the_cells, int flag);

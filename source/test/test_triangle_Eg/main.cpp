@@ -1,18 +1,18 @@
 #include "MyHead.h"
 #include "DG/DG.h"
-#include "model_Fun/model_Fun.h"
-#include "model_Instance/model_Instance.h"
+#include "simple_Fun/simple_Fun.h"
+#include "triangle_Instance/triangle_Instance.h"
 
 // 具体算例是模板算例类的继承，算例信息存储在其中
 // 数据存储在suprmatrix
 // 网格结构存储在vector<Cell>中
 
-#define THE_FUN model_Fun
-#define THE_INSTANCE model_Instance
+#define THE_FUN simple_Fun
+#define THE_INSTANCE triangle_Instance
 
 int main(int argc, char *argv[])
 {
-    printf("this is model Eg\n");
+    printf("this is triangle Eg\n");
 
     THE_INSTANCE my_instance = THE_INSTANCE(); // 根据算例的类创造这个算例
     Instance *my_instance_p = &my_instance;
@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
 
     printf("x_num=%d, y_num=%d\n", x_num, y_num);
 
-    index k = 2;
-    index gauss_k = 3;
+    index k = 1;
+    index gauss_k = 5;
 
     double time_now = 0;
     double time_end = 1.0;
@@ -48,13 +48,16 @@ int main(int argc, char *argv[])
     vector<double> init_args = {(double)k, (double)gauss_k};
     vector<double> dt_args = {0.5, (double)k};
     vector<double> update_args = {(double)k, 0, (double)gauss_k}; //第二个是dt
-    vector<double> error_args = {0, (double)gauss_k, 0};          // 2->L2 end_time=0
+    vector<double> error_args = {2, (double)gauss_k, 0};          // 2->L2 end_time=0
     vector<double> output_args;
     const char output_strs[3][DG_STR_LEN] = {"file1.txt", "file2.txt", "file3.txt"};
 
     supermatrix my_datas = DG::DG_init(my_instance_p, my_cells, init_args);
-    readMatrix(my_datas[0]);
 
+    for (int i = 0; i < my_datas.size(); i++) {
+        readMatrix(my_datas[i]);
+        read_cell(my_cells[i]);
+    }
     error_args[2] = 0;
     vector<double> init_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
     printf("init error\n");
@@ -79,8 +82,10 @@ int main(int argc, char *argv[])
 
         return 0;*/
 
+    // return 0;
+
     index i;
-    for (i = 0; i < ITERATION_MAX && (exit_flag == false); ++i) {
+    for (i = 0; i < 5 && (exit_flag == false); ++i) {
 
         dt_now = DG::DG_get_dt(my_instance_p, my_datas, my_cells, dt_args);
 

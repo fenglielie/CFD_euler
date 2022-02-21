@@ -27,6 +27,10 @@ vector<Cell> create_triangle_cell_from_file(const char *nodefile_name, const cha
     matrix mar_element = read_matrix_from_file(elementfile_name, 13);
     matrix mar_side = read_matrix_from_file(sidefile_name, 6);
 
+    // readMatrix(mar_node);
+    // readMatrix(mar_element);
+    // readMatrix(mar_side);
+
     // 记录cell的个数
     int node_num = (int)mar_element.size();
     // 创建cell的vector，最终返回
@@ -57,8 +61,8 @@ vector<Cell> create_triangle_cell_from_file(const char *nodefile_name, const cha
         for (int j = 0; j < celltype; ++j) {
             node = (int)mar_element[i][node_index]; //获取结点编号,可能是-1
             if (node >= 0) {
-                node_x = mar_node[node][0];
-                node_y = mar_node[node][1]; // 获取结点的具体坐标位置
+                node_x = mar_node[node][1];
+                node_y = mar_node[node][2]; // 获取结点的具体坐标位置
             }
             else {
                 node_x = node_y = 0;
@@ -80,4 +84,34 @@ vector<Cell> create_triangle_cell_from_file(const char *nodefile_name, const cha
     }
 
     return cells;
+}
+
+
+void period_modify_triangle_cells(vector<Cell> &the_cells, int flag)
+{
+    if (flag == 0) {
+        // amesh 0
+        // 2-22
+        the_cells[0]._neighbors[0] = 11;
+        the_cells[11]._neighbors[0] = 0;
+
+        the_cells[11]._sides[0] = 2;
+
+        the_cells[6]._neighbors[0] = 13;
+        the_cells[13]._neighbors[0] = 6;
+
+        the_cells[13]._sides[0] = 10;
+
+        the_cells[9]._neighbors[0] = 1;
+        the_cells[1]._neighbors[0] = 9;
+
+        the_cells[9]._sides[0] = 5;
+
+        the_cells[7]._neighbors[0] = 12;
+        the_cells[12]._neighbors[0] = 7;
+
+        the_cells[12]._neighbors[0] = 13;
+    }
+
+    return;
 }

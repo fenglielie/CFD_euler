@@ -15,6 +15,8 @@ add_subdirectory(model_Instance)
 
 add_subdirectory(simple_Instance)
 
+add_subdirectory(triangle_Instance)
+
 # add_subdirectory(Eg_1d_smooth_triangle)
 # 这里四个库目标都相互独立，不事先链接内部库或者外部库
 # 但是它们都需要外部库的目录
