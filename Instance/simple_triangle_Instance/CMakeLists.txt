@@ -1,7 +1,5 @@
-# DG
-
 list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR})
-set(MY_TARGET_NAME DG)
+set(MY_TARGET_NAME simple_triangle_Instance)
 add_library(${MY_TARGET_NAME} STATIC)
 # target_compile_definitions(${MY_TARGET_NAME} PRIVATE LOG)
 
@@ -28,7 +26,6 @@ set(MY_VERSION_TO_INSTALL ${MY_VERSION})
 #---------------------------------------------#
 # the CMakeLists.txt module for lib/exe begin:
 # hash=esbgfdsbgfdxbvdxv 2022-02-09
-# 修改了，把文件搜索变成递归的
 #---------------------------------------------#
 
 # you have add_lib/exe before
@@ -47,9 +44,9 @@ endif()
 
 
 # all local source files -> LOC_SRCS
-file(GLOB_RECURSE LOC_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+file(GLOB LOC_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 # all local head files -> LOC_HEAD
-file(GLOB_RECURSE LOC_HEAD ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
+file(GLOB LOC_HEAD ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
 
 
 # add sources
@@ -74,7 +71,6 @@ endif()
 #---------------------------------------------#
 # the CMakeLists.txt module for lib/exe end.
 # hash=esbgfdsbgfdxbvdxv 2022-02-09
-# 修改了，把文件搜索变成递归的
 #---------------------------------------------#
 
 

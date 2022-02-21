@@ -72,6 +72,17 @@ list(APPEND MY_INCLUDE ${CMAKE_BINARY_DIR})
 list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR})
 # add local subdir
 add_subdirectory(source)
+list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/source)
+
+add_subdirectory(Fun)
+list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/Fun)
+
+add_subdirectory(Instance)
+list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/Instance)
+
+add_subdirectory(test)
+list(APPEND MY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/test)
+
 #---------------------------------------------#
 
 
@@ -80,10 +91,10 @@ enable_testing()
 # begin test for test_1d_smooth
 
 # 无参数需要返回提示信息，包括方程信息，算例信息，但是不进行运算
-add_test(NAME test_model_Eg_is_Run COMMAND test_model_Eg)
+# add_test(NAME test_model_Eg_is_Run COMMAND test_model_Eg)
 # 有参数，可以设置参数进行运算，计算判断最后一行输出结果是否ok
-add_test(NAME test_model_Eg_is_OK COMMAND test_model_Eg -a)
-set_tests_properties(test_model_Eg_is_OK PROPERTIES PASS_REGULAR_EXPRESSION "Result:.*OK")
+#add_test(NAME test_model_Eg_is_OK COMMAND test_model_Eg -a)
+#set_tests_properties(test_model_Eg_is_OK PROPERTIES PASS_REGULAR_EXPRESSION "Result:.*OK")
 # 注意这里结果的匹配.*才代表通配符
 
 
