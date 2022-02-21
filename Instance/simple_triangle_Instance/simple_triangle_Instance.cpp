@@ -35,7 +35,7 @@ vector<Cell> triangle_Instance::create_cells()
         exit(1);
     }
 
-#define MY
+//#define MY
 
 #ifdef MY
 
