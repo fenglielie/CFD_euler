@@ -51,7 +51,8 @@ vector<double> get_cell_gaussweights(index gauss_k, index cellkind)
     else if (cellkind == 3) {
         //  TODO 三角形数值积分的权重
         // 权宜之计，三角形平移变换，并且自动补全另一半，成[-1,1]^2，把右上侧舍弃，也就是权重需要变成原来的一半
-        gaussweights = 1.0 / 8 * setGaussWeights_2d(gauss_k);
+        // gaussweights = 1.0 / 8 * setGaussWeights_2d(gauss_k);
+        gaussweights = {1.0 / 6, 1.0 / 6, 1.0 / 6};
     }
     else {
     }
@@ -66,7 +67,7 @@ matrix get_cell_gausspoints(index gauss_k, index cellkind)
     }
     else if (cellkind == 3) {
         //  TODO 三角形数值积分的点
-        gausspoints = setGaussPoints_2d(gauss_k);
+        /*gausspoints = setGaussPoints_2d(gauss_k);
 
         index len = gausspoints.size();
         double temp = 0;
@@ -81,7 +82,11 @@ matrix get_cell_gausspoints(index gauss_k, index cellkind)
             // 然后把点变换到标准的三角形单元
             gausspoints[i][0] = 1 + 0.5 * (gausspoints[i][0] - 1);
             gausspoints[i][1] = 1 + 0.5 * (gausspoints[i][1] - 1);
-        }
+        }*/
+        gausspoints = newMatrix(3, 2);
+        gausspoints[0] = {0.5, 0};
+        gausspoints[1] = {0, 0.5};
+        gausspoints[2] = {0.5, 0.5};
     }
     else {
     }

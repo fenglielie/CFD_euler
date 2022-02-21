@@ -11,6 +11,9 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
     vector<int> neighbors = the_cells[cell_index].get_neighbors_list();
     vector<int> neighbors_side_local_index = sides;
     vector<int> temp_sides = sides;
+
+
+
     int j = 0;
     for (index i = 0; i < cellkind; i++) {
         temp_sides = the_cells[neighbors[i]].get_sides_list();
@@ -23,6 +26,8 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
     // 获取当前cell的单位外法向
     matrix out_directions = the_cells[cell_index].get_outside_vector();
     vector<double> side_lengths = the_cells[cell_index].get_sides_length();
+
+
 
     // 然后对每一条边，获得内侧的u值和外侧的u值
     supermatrix inside_values = newSuperMatrix(cellkind, output_len, gauss_k);
@@ -42,6 +47,8 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
     matrix values_1 = newMatrix(cellkind, gauss_k);
     vector<double> inside_temp(output_len);
     vector<double> outside_temp(output_len);
+
+
     matrix temp_Fu;
     for (index i = 0; i < cellkind; i++) {
         for (index j = 0; j < gauss_k; j++) {
@@ -53,6 +60,7 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
             // 设置alpha
             alpha = 0;
             temp_Fu = fun_p->Fu_hat(inside_temp, outside_temp, alpha);
+            //temp_Fu = fun_p->Fu(inside_temp);
             values_1[i][j] = temp_Fu[0][value_index] * out_directions[i][0] + temp_Fu[1][value_index] * out_directions[i][1];
         }
     }

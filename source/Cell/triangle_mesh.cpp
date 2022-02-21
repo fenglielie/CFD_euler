@@ -92,25 +92,30 @@ void period_modify_triangle_cells(vector<Cell> &the_cells, int flag)
     if (flag == 0) {
         // amesh 0
         // 2-22
-        the_cells[0]._neighbors[0] = 11;
-        the_cells[11]._neighbors[0] = 0;
+        the_cells[0]._neighbors[1] = 11;
+        the_cells[11]._neighbors[1] = 0;
 
-        the_cells[11]._sides[0] = 2;
+        the_cells[11]._sides[1] = 2;
 
-        the_cells[6]._neighbors[0] = 13;
-        the_cells[13]._neighbors[0] = 6;
+        the_cells[6]._neighbors[1] = 13;
+        the_cells[13]._neighbors[1] = 6;
 
-        the_cells[13]._sides[0] = 10;
+        the_cells[13]._sides[1] = 10;
 
-        the_cells[9]._neighbors[0] = 1;
-        the_cells[1]._neighbors[0] = 9;
+        the_cells[9]._neighbors[1] = 1;
+        the_cells[1]._neighbors[1] = 9;
 
-        the_cells[9]._sides[0] = 5;
+        the_cells[9]._sides[1] = 5;
 
-        the_cells[7]._neighbors[0] = 12;
-        the_cells[12]._neighbors[0] = 7;
+        the_cells[7]._neighbors[1] = 12;
+        the_cells[12]._neighbors[1] = 7;
 
-        the_cells[12]._neighbors[0] = 13;
+        the_cells[12]._neighbors[1] = 13;
+    }
+
+    printf("check after modify\n");
+    for(int i=0;i<the_cells.size();i++){
+        read_cell(the_cells[i]);
     }
 
     return;

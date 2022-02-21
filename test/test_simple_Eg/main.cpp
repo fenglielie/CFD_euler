@@ -19,12 +19,17 @@ int main(int argc, char *argv[])
 
     // int x_num = atoi(argv[1]);
     // int y_num = atoi(argv[2]);
-    int x_num = 16;
-    int y_num = 16;
+    int x_num = 4;
+    int y_num = 4;
+
+    if (argc > 2) {
+        x_num = atoi(argv[1]);
+        y_num = atoi(argv[2]);
+    }
 
     printf("x_num=%d, y_num=%d\n", x_num, y_num);
 
-    index k = 2;
+    index k = 1;
     index gauss_k = 3;
 
     double time_now = 0;
@@ -99,7 +104,8 @@ int main(int argc, char *argv[])
         // 这里可以进行check
 
         time_now = time_now + dt_now;
-        if (i % 20==0) {
+
+        if (i % 20 == 0) {
             error_args[2] = time_now;
             middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
             printf("i=%d,time_now=%f,dt_now=%f\n", i, time_now, dt_now);
@@ -114,7 +120,7 @@ int main(int argc, char *argv[])
     vector<double> end_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
     printf("[%d]end error\n", i);
     readVector(end_error);
-    printf("%.12f\n",end_error[0]);
+    printf("%.12f\n", end_error[0]);
     /*
         for (index i = 0; i < len; i++) {
             printf("[%d]\n", i);

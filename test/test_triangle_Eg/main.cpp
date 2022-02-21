@@ -19,13 +19,13 @@ int main(int argc, char *argv[])
 
     // int x_num = atoi(argv[1]);
     // int y_num = atoi(argv[2]);
-    int x_num = 16;
-    int y_num = 16;
+    int x_num = 4;
+    int y_num = 4;
 
     printf("x_num=%d, y_num=%d\n", x_num, y_num);
 
     index k = 1;
-    index gauss_k = 5;
+    index gauss_k = 3;
 
     double time_now = 0;
     double time_end = 1.0;
@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     // 一些需要的数值参数和字符串(文件名)参数
     // 这些参数可以及时修改，使用引用调用也会返回每一步的相关信息
     vector<double> init_args = {(double)k, (double)gauss_k};
-    vector<double> dt_args = {0.5, (double)k};
+    vector<double> dt_args = {0.1, (double)k};
     vector<double> update_args = {(double)k, 0, (double)gauss_k}; //第二个是dt
     vector<double> error_args = {2, (double)gauss_k, 0};          // 2->L2 end_time=0
     vector<double> output_args;
@@ -82,10 +82,10 @@ int main(int argc, char *argv[])
 
         return 0;*/
 
-    // return 0;
+    //return 0;
 
     index i;
-    for (i = 0; i < 5 && (exit_flag == false); ++i) {
+    for (i = 0; i < ITERATION_MAX && (exit_flag == false); ++i) {
 
         dt_now = DG::DG_get_dt(my_instance_p, my_datas, my_cells, dt_args);
 
@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
         // 这里可以进行check
 
         time_now = time_now + dt_now;
-        if (i % 20 == 0) {
+        if (0 == 0) {
             error_args[2] = time_now;
             middle_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
             printf("i=%d,time_now=%f,dt_now=%f\n", i, time_now, dt_now);
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
     }
 
     // 这里先设置error_args
-    error_args[2] = time_end;
+    error_args[2] = time_now;
     vector<double> end_error = DG::DG_error(my_instance_p, my_datas, my_cells, error_args);
     printf("[%d]end error\n", i);
     readVector(end_error);

@@ -34,16 +34,24 @@ vector<Cell> triangle_Instance::create_cells()
         fprintf(stderr, "triangle_Instance::create_cells: you should config_instance before\n");
         exit(1);
     }
-    const char str_n[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my.n";
-    const char str_e[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my.e";
-    const char str_s[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my.s";
-    /*
-        const char str_n[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.n";
-        const char str_e[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.e";
-        const char str_s[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.s";*/
 
+#define MY
+
+#ifdef MY
+
+    const char str_n[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my2.n";
+    const char str_e[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my2.e";
+    const char str_s[] = "D:/codeMath/CFD_euler/data/mesh/amesh/my2.s";
+#endif
+#ifndef MY
+    const char str_n[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.n";
+    const char str_e[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.e";
+    const char str_s[] = "D:/codeMath/CFD_euler/data/mesh/amesh/gd0.s";
+#endif
     vector<Cell> result = create_triangle_cell_from_file(str_n, str_e, str_s);
-    period_modify_triangle_cells(result, 1);
+#ifndef MY
+    period_modify_triangle_cells(result, 0);
+#endif
     return result;
 }
 
@@ -53,7 +61,7 @@ vector<double> triangle_Instance::value_init(double x, double y) const
     index output_len = get_output_len();
     vector<double> result(output_len);
 
-    result[0] = 1; // 1 + 0.2 * sin(pi * x);
+    result[0] = 1;//sin(pi*x);
     result = _fun_p->change_to_conversation_vars(result);
 
     return result;
@@ -65,7 +73,7 @@ vector<double> triangle_Instance::value_end(double x, double y, double end_time)
     index output_len = get_output_len();
     vector<double> result(output_len);
 
-    result[0] = 1; // 1 + 0.2 * sin(pi * (x - end_time));
+    result[0] = 1;//sin(pi*(x - end_time));
 
     result = _fun_p->change_to_conversation_vars(result);
     return result;

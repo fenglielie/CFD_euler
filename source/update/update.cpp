@@ -59,6 +59,18 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
         testfun[i] = 0;
     }
 
+    static int debug_test = 0;
+    if (debug_test < 8) {
+        printf("item_main\n");
+        readMatrix(item_main);
+        printf("item_Fu\n");
+        readMatrix(item_Fu);
+        printf("item_edge\n");
+        readMatrix(item_edge);
+
+        debug_test++;
+    }
+
     // 以上给出了对于所有分量上的测试函数返回的结果，据此进行计算增量
     // 此后可以拆解各个分量进行
 
@@ -67,10 +79,10 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
     matrix result = the_datas[cell_index];
     vector<double> b(k_2d, 0);
     for (index i = 0; i < output_len; i++) {
-        printf("h\n");
-        readVector(item_main[i]);
-        readVector(item_Fu[i]);
-        readVector(item_edge[i]);
+        // printf("h\n");
+        // readVector(item_main[i]);
+        // readVector(item_Fu[i]);
+        // readVector(item_edge[i]);
         b = item_main[i] + dt * (item_Fu[i] - item_edge[i]);
         result[i] = Gauss_Elimination(A, b);
     }

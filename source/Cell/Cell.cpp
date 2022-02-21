@@ -67,6 +67,20 @@ void Cell::set_neighbor_init(int cell_i, int side_i, double node_x, double node_
     _nodes_y[_neighborNum] = node_y;
 
     ++_neighborNum; //在init阶段作为索引，在其他阶段作为邻居数目常量
+
+    if (_neighborNum == _cellKind && _cellKind == 3) {
+        // 直接修正错位
+        int temp = _sides[0];
+        _sides[0] = _sides[2];
+        _sides[2] = _sides[1];
+        _sides[1] = temp;
+
+        int temp2 = _neighbors[0];
+        _neighbors[0] = _neighbors[2];
+        _neighbors[2] = _neighbors[1];
+        _neighbors[1] = temp2;
+    }
+
     return;
 }
 
@@ -86,18 +100,9 @@ matrix Cell::get_nodes_list() const
 vector<int> Cell::get_sides_list() const
 {
     vector<int> sides(_neighborNum);
-    for (int i = 0; i < _neighborNum; i++) {
+    for (int i = 0; i < _cellKind; i++) {
         sides[i] = _sides[i];
     }
-
-    if (_cellKind == 3) {
-        // 顶点有错位，需要修正和邻居/邻边的序号一致
-        vector<int> sides_old = sides;
-        sides[0] = sides_old[1];
-        sides[1] = sides_old[2];
-        sides[2] = sides_old[0];
-    }
-
     return sides;
 }
 
@@ -108,13 +113,6 @@ vector<int> Cell::get_neighbors_list() const
         neighbors[i] = _neighbors[i];
     }
 
-    if (_cellKind == 3) {
-        // 顶点有错位，需要修正和邻居/邻边的序号一致
-        vector<int> neighbors_old = neighbors;
-        neighbors[0] = neighbors_old[1];
-        neighbors[1] = neighbors_old[2];
-        neighbors[2] = neighbors_old[0];
-    }
 
     return neighbors;
 }
@@ -146,13 +144,6 @@ void Cell::set_outsides_vector()
         outs[i][1] = v;
     }
 
-    if (_cellKind == 3) {
-        // 顶点有错位，需要修正和邻居/邻边的序号一致
-        matrix outs_old = outs;
-        outs[0] = outs_old[1];
-        outs[1] = outs_old[2];
-        outs[2] = outs_old[0];
-    }
     _outsides_vector = outs;
 
     return;
@@ -176,13 +167,6 @@ void Cell::set_sides_length()
         lengths[i] = sqrt(dx * dx + dy * dy);
     }
 
-    if (_cellKind == 3) {
-        // 顶点有错位，需要修正和邻居/邻边的序号一致
-        vector<double> lengths_old = lengths;
-        lengths[0] = lengths_old[1];
-        lengths[1] = lengths_old[2];
-        lengths[2] = lengths_old[0];
-    }
 
     _sides_length = lengths;
     return;
@@ -209,7 +193,7 @@ void read_cell(Cell the_cell)
     printf("neighborNum = %d\n", the_cell._neighborNum);
     printf("location flag = %d, visit flag = %d\n", the_cell._flag_for_location, the_cell._flag_for_visit);
 
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < the_cell._cellKind; i++) {
         printf("[%d] side=%d, neighbor=%d,\t", i, the_cell._sides[i], the_cell._neighbors[i]);
         printf("node=(%f,%f)\n", the_cell._nodes_x[i], the_cell._nodes_y[i]);
     }
