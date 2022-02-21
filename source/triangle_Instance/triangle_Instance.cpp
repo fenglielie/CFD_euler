@@ -53,7 +53,7 @@ vector<double> triangle_Instance::value_init(double x, double y) const
     index output_len = get_output_len();
     vector<double> result(output_len);
 
-    result[0] = x; // 1 + 0.2 * sin(pi * x);
+    result[0] = 1; // 1 + 0.2 * sin(pi * x);
     result = _fun_p->change_to_conversation_vars(result);
 
     return result;
@@ -65,7 +65,7 @@ vector<double> triangle_Instance::value_end(double x, double y, double end_time)
     index output_len = get_output_len();
     vector<double> result(output_len);
 
-    result[0] = x; // 1 + 0.2 * sin(pi * (x - end_time));
+    result[0] = 1; // 1 + 0.2 * sin(pi * (x - end_time));
 
     result = _fun_p->change_to_conversation_vars(result);
     return result;
