@@ -12,9 +12,8 @@
 // 关于三角形和矩形单元的区分，在这一层解决
 // 并且上一层将只是进行线性组合，这一层需要解决cell的尺度变换，记录到值列表中
 matrix jacobi(const Cell &the_cell);
+matrix inv_jacobi(const Cell &the_cell);
 double jacobi_det_fabs(const Cell&the_cell);
-double coeff_for_dx(const Cell&the_cell);
-double coeff_for_dy(const Cell&the_cell);
 
 // 这里还产生面积分的权重和局部坐标
 vector<double> get_cell_gaussweights(index gauss_k, index cellkind);

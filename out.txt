@@ -1,0 +1,276 @@
+x_num=4, y_num=4
+check after modify
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=1,	node=(0.642857,0.357143)
+outs=(-0.707107,-0.707107)
+[1] side=2, neighbor=11,	node=(1.000000,0.000000)
+outs=(1.000000,-0.000000)
+[2] side=1, neighbor=2,	node=(1.000000,0.500000)
+outs=(-0.371391,0.928477)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=3, neighbor=3,	node=(0.642857,0.357143)
+outs=(-0.928477,0.371391)
+[1] side=5, neighbor=9,	node=(0.500000,0.000000)
+outs=(0.000000,-1.000000)
+[2] side=0, neighbor=0,	node=(1.000000,0.000000)
+outs=(0.707107,0.707107)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=0,	node=(0.642857,0.357143)
+outs=(0.371391,-0.928477)
+[1] side=8, neighbor=6,	node=(1.000000,0.500000)
+outs=(0.554700,0.832050)
+[2] side=4, neighbor=4,	node=(0.700000,0.700000)
+outs=(-0.986394,0.164399)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=6, neighbor=5,	node=(0.642857,0.357143)
+outs=(-0.164399,0.986394)
+[1] side=9, neighbor=7,	node=(0.300000,0.300000)
+outs=(-0.832050,-0.554700)
+[2] side=3, neighbor=1,	node=(0.500000,0.000000)
+outs=(0.928477,-0.371391)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=5,	node=(0.357143,0.642857)
+outs=(-0.707107,-0.707107)
+[1] side=4, neighbor=2,	node=(0.642857,0.357143)
+outs=(0.986394,-0.164399)
+[2] side=11, neighbor=8,	node=(0.700000,0.700000)
+outs=(-0.164399,0.986394)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=12, neighbor=10,	node=(0.357143,0.642857)
+outs=(-0.986394,0.164399)
+[1] side=6, neighbor=3,	node=(0.300000,0.300000)
+outs=(0.164399,-0.986394)
+[2] side=7, neighbor=4,	node=(0.642857,0.357143)
+outs=(0.707107,0.707107)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=2,	node=(0.700000,0.700000)
+outs=(-0.554700,-0.832050)
+[1] side=10, neighbor=13,	node=(1.000000,0.500000)
+outs=(1.000000,-0.000000)
+[2] side=14, neighbor=9,	node=(1.000000,1.000000)
+outs=(-0.707107,0.707107)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=16, neighbor=11,	node=(0.300000,0.300000)
+outs=(-0.707107,0.707107)
+[1] side=13, neighbor=12,	node=(0.000000,0.000000)
+outs=(0.000000,-1.000000)
+[2] side=9, neighbor=3,	node=(0.500000,0.000000)
+outs=(0.832050,0.554700)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=15, neighbor=9,	node=(0.700000,0.700000)
+outs=(0.832050,0.554700)
+[1] side=17, neighbor=12,	node=(0.500000,1.000000)
+outs=(-0.928477,0.371391)
+[2] side=11, neighbor=4,	node=(0.357143,0.642857)
+outs=(0.164399,-0.986394)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=14, neighbor=6,	node=(0.700000,0.700000)
+outs=(0.707107,-0.707107)
+[1] side=5, neighbor=1,	node=(1.000000,1.000000)
+outs=(0.000000,1.000000)
+[2] side=15, neighbor=8,	node=(0.500000,1.000000)
+outs=(-0.832050,-0.554700)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=20, neighbor=13,	node=(0.357143,0.642857)
+outs=(-0.371391,0.928477)
+[1] side=18, neighbor=11,	node=(0.000000,0.500000)
+outs=(-0.554700,-0.832050)
+[2] side=12, neighbor=5,	node=(0.300000,0.300000)
+outs=(0.986394,-0.164399)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=18, neighbor=10,	node=(0.300000,0.300000)
+outs=(0.554700,0.832050)
+[1] side=2, neighbor=0,	node=(0.000000,0.500000)
+outs=(-1.000000,-0.000000)
+[2] side=16, neighbor=7,	node=(0.000000,0.000000)
+outs=(0.707107,-0.707107)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=17, neighbor=8,	node=(0.357143,0.642857)
+outs=(0.928477,-0.371391)
+[1] side=13, neighbor=7,	node=(0.500000,1.000000)
+outs=(0.000000,1.000000)
+[2] side=21, neighbor=13,	node=(0.000000,1.000000)
+outs=(-0.707107,-0.707107)
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=21, neighbor=12,	node=(0.357143,0.642857)
+outs=(0.707107,0.707107)
+[1] side=10, neighbor=6,	node=(0.000000,1.000000)
+outs=(-1.000000,-0.000000)
+[2] side=20, neighbor=10,	node=(0.000000,0.500000)
+outs=(0.371391,-0.928477)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=1,	node=(0.642857,0.357143)
+outs=(-0.707107,-0.707107)
+[1] side=2, neighbor=11,	node=(1.000000,0.000000)
+outs=(1.000000,-0.000000)
+[2] side=1, neighbor=2,	node=(1.000000,0.500000)
+outs=(-0.371391,0.928477)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=3, neighbor=3,	node=(0.642857,0.357143)
+outs=(-0.928477,0.371391)
+[1] side=5, neighbor=9,	node=(0.500000,0.000000)
+outs=(0.000000,-1.000000)
+[2] side=0, neighbor=0,	node=(1.000000,0.000000)
+outs=(0.707107,0.707107)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=0,	node=(0.642857,0.357143)
+outs=(0.371391,-0.928477)
+[1] side=8, neighbor=6,	node=(1.000000,0.500000)
+outs=(0.554700,0.832050)
+[2] side=4, neighbor=4,	node=(0.700000,0.700000)
+outs=(-0.986394,0.164399)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=6, neighbor=5,	node=(0.642857,0.357143)
+outs=(-0.164399,0.986394)
+[1] side=9, neighbor=7,	node=(0.300000,0.300000)
+outs=(-0.832050,-0.554700)
+[2] side=3, neighbor=1,	node=(0.500000,0.000000)
+outs=(0.928477,-0.371391)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=5,	node=(0.357143,0.642857)
+outs=(-0.707107,-0.707107)
+[1] side=4, neighbor=2,	node=(0.642857,0.357143)
+outs=(0.986394,-0.164399)
+[2] side=11, neighbor=8,	node=(0.700000,0.700000)
+outs=(-0.164399,0.986394)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=12, neighbor=10,	node=(0.357143,0.642857)
+outs=(-0.986394,0.164399)
+[1] side=6, neighbor=3,	node=(0.300000,0.300000)
+outs=(0.164399,-0.986394)
+[2] side=7, neighbor=4,	node=(0.642857,0.357143)
+outs=(0.707107,0.707107)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=2,	node=(0.700000,0.700000)
+outs=(-0.554700,-0.832050)
+[1] side=10, neighbor=13,	node=(1.000000,0.500000)
+outs=(1.000000,-0.000000)
+[2] side=14, neighbor=9,	node=(1.000000,1.000000)
+outs=(-0.707107,0.707107)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=16, neighbor=11,	node=(0.300000,0.300000)
+outs=(-0.707107,0.707107)
+[1] side=13, neighbor=12,	node=(0.000000,0.000000)
+outs=(0.000000,-1.000000)
+[2] side=9, neighbor=3,	node=(0.500000,0.000000)
+outs=(0.832050,0.554700)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=15, neighbor=9,	node=(0.700000,0.700000)
+outs=(0.832050,0.554700)
+[1] side=17, neighbor=12,	node=(0.500000,1.000000)
+outs=(-0.928477,0.371391)
+[2] side=11, neighbor=4,	node=(0.357143,0.642857)
+outs=(0.164399,-0.986394)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=14, neighbor=6,	node=(0.700000,0.700000)
+outs=(0.707107,-0.707107)
+[1] side=5, neighbor=1,	node=(1.000000,1.000000)
+outs=(0.000000,1.000000)
+[2] side=15, neighbor=8,	node=(0.500000,1.000000)
+outs=(-0.832050,-0.554700)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=20, neighbor=13,	node=(0.357143,0.642857)
+outs=(-0.371391,0.928477)
+[1] side=18, neighbor=11,	node=(0.000000,0.500000)
+outs=(-0.554700,-0.832050)
+[2] side=12, neighbor=5,	node=(0.300000,0.300000)
+outs=(0.986394,-0.164399)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=18, neighbor=10,	node=(0.300000,0.300000)
+outs=(0.554700,0.832050)
+[1] side=2, neighbor=0,	node=(0.000000,0.500000)
+outs=(-1.000000,-0.000000)
+[2] side=16, neighbor=7,	node=(0.000000,0.000000)
+outs=(0.707107,-0.707107)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=17, neighbor=8,	node=(0.357143,0.642857)
+outs=(0.928477,-0.371391)
+[1] side=13, neighbor=7,	node=(0.500000,1.000000)
+outs=(0.000000,1.000000)
+[2] side=21, neighbor=13,	node=(0.000000,1.000000)
+outs=(-0.707107,-0.707107)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=21, neighbor=12,	node=(0.357143,0.642857)
+outs=(0.707107,0.707107)
+[1] side=10, neighbor=6,	node=(0.000000,1.000000)
+outs=(-1.000000,-0.000000)
+[2] side=20, neighbor=10,	node=(0.000000,0.500000)
+outs=(0.371391,-0.928477)
+init error
+0.000000 
+init error = 0.000000000000
+dt_now = 0.036427
+i=0,time_now=0.036427,dt_now=0.036427
+[0]middle error
+0.000000 
+

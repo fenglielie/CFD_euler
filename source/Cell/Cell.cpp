@@ -193,8 +193,11 @@ void read_cell(Cell the_cell)
     printf("neighborNum = %d\n", the_cell._neighborNum);
     printf("location flag = %d, visit flag = %d\n", the_cell._flag_for_location, the_cell._flag_for_visit);
 
+    matrix outs = the_cell.get_outside_vector();
+
     for (int i = 0; i < the_cell._cellKind; i++) {
         printf("[%d] side=%d, neighbor=%d,\t", i, the_cell._sides[i], the_cell._neighbors[i]);
         printf("node=(%f,%f)\n", the_cell._nodes_x[i], the_cell._nodes_y[i]);
+        printf("outs=(%f,%f)\n", outs[i][0], outs[i][1]);
     }
 }

@@ -48,11 +48,13 @@ double SurfaceIntegrate_update_Fu(index gauss_k, const Fun *fun_p, const matrix 
         values1[i][1] = values1_Fu[i][1][value_index];
     }
 
-    vector<double> values2_x = get_cell_values_table(gauss_k, the_cell, base_fun_2d_x, u);
-    vector<double> values2_y = get_cell_values_table(gauss_k, the_cell, base_fun_2d_y, u);
+    vector<double> values2_x_old = get_cell_values_table(gauss_k, the_cell, base_fun_2d_x, u);
+    vector<double> values2_y_old = get_cell_values_table(gauss_k, the_cell, base_fun_2d_y, u);
 
-    values2_x = coeff_for_dx(the_cell) * values2_x;
-    values2_y = coeff_for_dy(the_cell) * values2_y;
+    matrix mar_j= inv_jacobi(the_cell);
+
+    vector<double> values2_x = mar_j[0][0] * values2_x_old + mar_j[1][0]*values2_y_old;
+    vector<double> values2_y = mar_j[0][1] * values2_x_old + mar_j[1][1]*values2_y_old;
 
     double result = 0;
     for (index i = 0; i < len; i++) {

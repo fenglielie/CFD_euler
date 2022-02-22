@@ -1,0 +1,1633 @@
+x_num=4, y_num=4
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=6,	node=(0.000000,0.000000)
+[1] side=3, neighbor=2,	node=(0.500000,0.000000)
+[2] side=2, neighbor=3,	node=(0.000000,0.600000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=7,	node=(0.500000,0.000000)
+[1] side=5, neighbor=3,	node=(1.000000,0.000000)
+[2] side=4, neighbor=2,	node=(0.500000,0.500000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=4,	node=(0.500000,0.500000)
+[1] side=3, neighbor=0,	node=(0.000000,0.600000)
+[2] side=4, neighbor=1,	node=(0.500000,0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=5,	node=(1.000000,0.500000)
+[1] side=5, neighbor=1,	node=(0.500000,0.500000)
+[2] side=2, neighbor=0,	node=(1.000000,0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=2,	node=(0.000000,0.600000)
+[1] side=10, neighbor=6,	node=(0.500000,0.500000)
+[2] side=9, neighbor=7,	node=(0.000000,1.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=3,	node=(0.500000,0.500000)
+[1] side=12, neighbor=7,	node=(1.000000,0.500000)
+[2] side=11, neighbor=6,	node=(0.500000,1.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=0,	node=(0.500000,1.000000)
+[1] side=10, neighbor=4,	node=(0.000000,1.000000)
+[2] side=11, neighbor=5,	node=(0.500000,0.500000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=1,	node=(1.000000,1.000000)
+[1] side=12, neighbor=5,	node=(0.500000,1.000000)
+[2] side=9, neighbor=4,	node=(1.000000,0.500000)
+init error
+0.000000 
+init error = 0.000000000000
+dt_now = 0.053900
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.600000
+sides 2 is -0.600000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.300000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.300000
+sides 2 is -0.300000
+[0]
+item_main
+0.150000 0.050000 0.050000 
+item_Fu
+0.000000 0.300000 0.000000 
+item_edge
+0.000000 0.300000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[1]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.100000
+sides 1 is -0.600000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.050000
+sides 1 is -0.300000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.300000
+sides 2 is 0.250000
+[2]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+-0.000000 -0.250000 -0.050000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[3]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is -0.100000
+sides 1 is 0.500000
+sides 2 is -0.400000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is -0.050000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.200000
+[4]
+item_main
+0.100000 0.033333 0.033333 
+item_Fu
+0.000000 0.200000 0.000000 
+item_edge
+0.000000 0.200000 0.050000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[5]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[6]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[7]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.229563
+side=1 gauss_index=1
+inside=1.000000,outside=1.129361
+side=1 gauss_index=2
+inside=1.000000,outside=1.029158
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.638808
+sides 2 is -0.600000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.229563
+side=1 gauss_index=1
+inside=1.000000,outside=1.129361
+side=1 gauss_index=2
+inside=1.000000,outside=1.029158
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.325872
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.229563
+side=1 gauss_index=1
+inside=1.000000,outside=1.129361
+side=1 gauss_index=2
+inside=1.000000,outside=1.029158
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.312936
+sides 2 is -0.300000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=0.799595
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.200405
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=0.799595
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.200405
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=0.799595
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.200405
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.239220
+side=0 gauss_index=0
+inside=0.770437,outside=1.036448
+side=0 gauss_index=1
+inside=0.870639,outside=1.161701
+side=0 gauss_index=2
+inside=0.970842,outside=1.286954
+side=1 gauss_index=0
+inside=1.029158,outside=1.000000
+side=1 gauss_index=1
+inside=1.129361,outside=1.000000
+side=1 gauss_index=2
+inside=1.229563,outside=1.000000
+side=2 gauss_index=0
+inside=1.200405,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=0.799595,outside=1.000000
+sides 0 is 0.101617
+sides 1 is -0.638808
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=0.770437,outside=1.036448
+side=0 gauss_index=1
+inside=0.870639,outside=1.161701
+side=0 gauss_index=2
+inside=0.970842,outside=1.286954
+side=1 gauss_index=0
+inside=1.029158,outside=1.000000
+side=1 gauss_index=1
+inside=1.129361,outside=1.000000
+side=1 gauss_index=2
+inside=1.229563,outside=1.000000
+side=2 gauss_index=0
+inside=1.200405,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=0.799595,outside=1.000000
+sides 0 is 0.053234
+sides 1 is -0.312936
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=0.770437,outside=1.036448
+side=0 gauss_index=1
+inside=0.870639,outside=1.161701
+side=0 gauss_index=2
+inside=0.970842,outside=1.286954
+side=1 gauss_index=0
+inside=1.029158,outside=1.000000
+side=1 gauss_index=1
+inside=1.129361,outside=1.000000
+side=1 gauss_index=2
+inside=1.229563,outside=1.000000
+side=2 gauss_index=0
+inside=1.200405,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=0.799595,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.325872
+sides 2 is 0.260780
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.286954,outside=0.970842
+side=0 gauss_index=1
+inside=1.161701,outside=0.870639
+side=0 gauss_index=2
+inside=1.036448,outside=0.770437
+side=1 gauss_index=0
+inside=0.963552,outside=1.000000
+side=1 gauss_index=1
+inside=0.838299,outside=1.000000
+side=1 gauss_index=2
+inside=0.713046,outside=1.000000
+side=2 gauss_index=0
+inside=0.749494,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.250506,outside=1.000000
+sides 0 is -0.101617
+sides 1 is 0.459575
+sides 2 is -0.400000
+side=0 gauss_index=0
+inside=1.286954,outside=0.970842
+side=0 gauss_index=1
+inside=1.161701,outside=0.870639
+side=0 gauss_index=2
+inside=1.036448,outside=0.770437
+side=1 gauss_index=0
+inside=0.963552,outside=1.000000
+side=1 gauss_index=1
+inside=0.838299,outside=1.000000
+side=1 gauss_index=2
+inside=0.713046,outside=1.000000
+side=2 gauss_index=0
+inside=0.749494,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.250506,outside=1.000000
+sides 0 is -0.048383
+sides 1 is 0.236525
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.286954,outside=0.970842
+side=0 gauss_index=1
+inside=1.161701,outside=0.870639
+side=0 gauss_index=2
+inside=1.036448,outside=0.770437
+side=1 gauss_index=0
+inside=0.963552,outside=1.000000
+side=1 gauss_index=1
+inside=0.838299,outside=1.000000
+side=1 gauss_index=2
+inside=0.713046,outside=1.000000
+side=2 gauss_index=0
+inside=0.749494,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.250506,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.223050
+sides 2 is -0.189220
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.713046
+side=1 gauss_index=1
+inside=1.000000,outside=0.838299
+side=1 gauss_index=2
+inside=1.000000,outside=0.963552
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.459575
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.713046
+side=1 gauss_index=1
+inside=1.000000,outside=0.838299
+side=1 gauss_index=2
+inside=1.000000,outside=0.963552
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.223050
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.713046
+side=1 gauss_index=1
+inside=1.000000,outside=0.838299
+side=1 gauss_index=2
+inside=1.000000,outside=0.963552
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.236525
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.250506
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=0.749494
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.250506
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=0.749494
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.250506
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=0.749494
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.263475
+side=0 gauss_index=0
+inside=1.007316,outside=0.982140
+side=0 gauss_index=1
+inside=0.996514,outside=0.995642
+side=0 gauss_index=2
+inside=0.985712,outside=1.009144
+side=1 gauss_index=0
+inside=0.984140,outside=1.121491
+side=1 gauss_index=1
+inside=0.989541,outside=1.068690
+side=1 gauss_index=2
+inside=0.994942,outside=1.015888
+side=2 gauss_index=0
+inside=0.998085,outside=1.000000
+side=2 gauss_index=1
+inside=1.003486,outside=1.000000
+side=2 gauss_index=2
+inside=1.008887,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.617469
+sides 2 is -0.601046
+side=0 gauss_index=0
+inside=1.007316,outside=0.982140
+side=0 gauss_index=1
+inside=0.996514,outside=0.995642
+side=0 gauss_index=2
+inside=0.985712,outside=1.009144
+side=1 gauss_index=0
+inside=0.984140,outside=1.121491
+side=1 gauss_index=1
+inside=0.989541,outside=1.068690
+side=1 gauss_index=2
+inside=0.994942,outside=1.015888
+side=2 gauss_index=0
+inside=0.998085,outside=1.000000
+side=2 gauss_index=1
+inside=1.003486,outside=1.000000
+side=2 gauss_index=2
+inside=1.008887,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.311794
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.007316,outside=0.982140
+side=0 gauss_index=1
+inside=0.996514,outside=0.995642
+side=0 gauss_index=2
+inside=0.985712,outside=1.009144
+side=1 gauss_index=0
+inside=0.984140,outside=1.121491
+side=1 gauss_index=1
+inside=0.989541,outside=1.068690
+side=1 gauss_index=2
+inside=0.994942,outside=1.015888
+side=2 gauss_index=0
+inside=0.998085,outside=1.000000
+side=2 gauss_index=1
+inside=1.003486,outside=1.000000
+side=2 gauss_index=2
+inside=1.008887,outside=1.000000
+sides 0 is 0.000000
+sides 1 is 0.305675
+sides 2 is -0.300174
+side=0 gauss_index=0
+inside=1.012374,outside=1.001965
+side=0 gauss_index=1
+inside=1.006973,outside=1.008716
+side=0 gauss_index=2
+inside=1.001572,outside=1.015467
+side=1 gauss_index=0
+inside=0.998428,outside=1.000000
+side=1 gauss_index=1
+inside=0.993027,outside=1.000000
+side=1 gauss_index=2
+inside=0.987626,outside=1.000000
+side=2 gauss_index=0
+inside=0.989198,outside=0.904200
+side=2 gauss_index=1
+inside=1.000000,outside=1.005752
+side=2 gauss_index=2
+inside=1.010802,outside=1.107305
+sides 0 is 0.000000
+sides 1 is 0.498257
+sides 2 is -0.501438
+side=0 gauss_index=0
+inside=1.012374,outside=1.001965
+side=0 gauss_index=1
+inside=1.006973,outside=1.008716
+side=0 gauss_index=2
+inside=1.001572,outside=1.015467
+side=1 gauss_index=0
+inside=0.998428,outside=1.000000
+side=1 gauss_index=1
+inside=0.993027,outside=1.000000
+side=1 gauss_index=2
+inside=0.987626,outside=1.000000
+side=2 gauss_index=0
+inside=0.989198,outside=0.904200
+side=2 gauss_index=1
+inside=1.000000,outside=1.005752
+side=2 gauss_index=2
+inside=1.010802,outside=1.107305
+sides 0 is 0.000000
+sides 1 is 0.249419
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.012374,outside=1.001965
+side=0 gauss_index=1
+inside=1.006973,outside=1.008716
+side=0 gauss_index=2
+inside=1.001572,outside=1.015467
+side=1 gauss_index=0
+inside=0.998428,outside=1.000000
+side=1 gauss_index=1
+inside=0.993027,outside=1.000000
+side=1 gauss_index=2
+inside=0.987626,outside=1.000000
+side=2 gauss_index=0
+inside=0.989198,outside=0.904200
+side=2 gauss_index=1
+inside=1.000000,outside=1.005752
+side=2 gauss_index=2
+inside=1.010802,outside=1.107305
+sides 0 is 0.000000
+sides 1 is 0.248838
+sides 2 is -0.244675
+side=0 gauss_index=0
+inside=0.888835,outside=1.020796
+side=0 gauss_index=1
+inside=0.937586,outside=1.084773
+side=0 gauss_index=2
+inside=0.986337,outside=1.148749
+side=1 gauss_index=0
+inside=1.015888,outside=0.994942
+side=1 gauss_index=1
+inside=1.068690,outside=0.989541
+side=1 gauss_index=2
+inside=1.121491,outside=0.984140
+side=2 gauss_index=0
+inside=1.107305,outside=1.010802
+side=2 gauss_index=1
+inside=1.005752,outside=1.000000
+side=2 gauss_index=2
+inside=0.904200,outside=0.989198
+sides 0 is 0.101118
+sides 1 is -0.617469
+sides 2 is 0.501438
+side=0 gauss_index=0
+inside=0.888835,outside=1.020796
+side=0 gauss_index=1
+inside=0.937586,outside=1.084773
+side=0 gauss_index=2
+inside=0.986337,outside=1.148749
+side=1 gauss_index=0
+inside=1.015888,outside=0.994942
+side=1 gauss_index=1
+inside=1.068690,outside=0.989541
+side=1 gauss_index=2
+inside=1.121491,outside=0.984140
+side=2 gauss_index=0
+inside=1.107305,outside=1.010802
+side=2 gauss_index=1
+inside=1.005752,outside=1.000000
+side=2 gauss_index=2
+inside=0.904200,outside=0.989198
+sides 0 is 0.051772
+sides 1 is -0.305675
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=0.888835,outside=1.020796
+side=0 gauss_index=1
+inside=0.937586,outside=1.084773
+side=0 gauss_index=2
+inside=0.986337,outside=1.148749
+side=1 gauss_index=0
+inside=1.015888,outside=0.994942
+side=1 gauss_index=1
+inside=1.068690,outside=0.989541
+side=1 gauss_index=2
+inside=1.121491,outside=0.984140
+side=2 gauss_index=0
+inside=1.107305,outside=1.010802
+side=2 gauss_index=1
+inside=1.005752,outside=1.000000
+side=2 gauss_index=2
+inside=0.904200,outside=0.989198
+sides 0 is 0.000000
+sides 1 is -0.311794
+sides 2 is 0.256763
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.987626
+side=1 gauss_index=1
+inside=1.000000,outside=0.993027
+side=1 gauss_index=2
+inside=1.000000,outside=0.998428
+side=2 gauss_index=0
+inside=1.000000,outside=1.008887
+side=2 gauss_index=1
+inside=1.000000,outside=1.003486
+side=2 gauss_index=2
+inside=1.000000,outside=0.998085
+sides 0 is 0.000000
+sides 1 is -0.498257
+sides 2 is 0.500872
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.987626
+side=1 gauss_index=1
+inside=1.000000,outside=0.993027
+side=1 gauss_index=2
+inside=1.000000,outside=0.998428
+side=2 gauss_index=0
+inside=1.000000,outside=1.008887
+side=2 gauss_index=1
+inside=1.000000,outside=1.003486
+side=2 gauss_index=2
+inside=1.000000,outside=0.998085
+sides 0 is 0.000000
+sides 1 is -0.248838
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.987626
+side=1 gauss_index=1
+inside=1.000000,outside=0.993027
+side=1 gauss_index=2
+inside=1.000000,outside=0.998428
+side=2 gauss_index=0
+inside=1.000000,outside=1.008887
+side=2 gauss_index=1
+inside=1.000000,outside=1.003486
+side=2 gauss_index=2
+inside=1.000000,outside=0.998085
+sides 0 is 0.000000
+sides 1 is -0.249419
+sides 2 is 0.250726
+side=0 gauss_index=0
+inside=1.148749,outside=0.986337
+side=0 gauss_index=1
+inside=1.084773,outside=0.937586
+side=0 gauss_index=2
+inside=1.020796,outside=0.888835
+side=1 gauss_index=0
+inside=0.984741,outside=0.993678
+side=1 gauss_index=1
+inside=0.924815,outside=0.986926
+side=1 gauss_index=2
+inside=0.864889,outside=0.980175
+side=2 gauss_index=0
+inside=0.883506,outside=1.013502
+side=2 gauss_index=1
+inside=1.007408,outside=1.000000
+side=2 gauss_index=2
+inside=1.131311,outside=0.986498
+sides 0 is -0.101118
+sides 1 is 0.477935
+sides 2 is -0.401482
+side=0 gauss_index=0
+inside=1.148749,outside=0.986337
+side=0 gauss_index=1
+inside=1.084773,outside=0.937586
+side=0 gauss_index=2
+inside=1.020796,outside=0.888835
+side=1 gauss_index=0
+inside=0.984741,outside=0.993678
+side=1 gauss_index=1
+inside=0.924815,outside=0.986926
+side=1 gauss_index=2
+inside=0.864889,outside=0.980175
+side=2 gauss_index=0
+inside=0.883506,outside=1.013502
+side=2 gauss_index=1
+inside=1.007408,outside=1.000000
+side=2 gauss_index=2
+inside=1.131311,outside=0.986498
+sides 0 is -0.049346
+sides 1 is 0.242554
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.148749,outside=0.986337
+side=0 gauss_index=1
+inside=1.084773,outside=0.937586
+side=0 gauss_index=2
+inside=1.020796,outside=0.888835
+side=1 gauss_index=0
+inside=0.984741,outside=0.993678
+side=1 gauss_index=1
+inside=0.924815,outside=0.986926
+side=1 gauss_index=2
+inside=0.864889,outside=0.980175
+side=2 gauss_index=0
+inside=0.883506,outside=1.013502
+side=2 gauss_index=1
+inside=1.007408,outside=1.000000
+side=2 gauss_index=2
+inside=1.131311,outside=0.986498
+sides 0 is 0.000000
+sides 1 is 0.235381
+sides 2 is -0.195990
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.984533
+side=1 gauss_index=1
+inside=1.000000,outside=0.991284
+side=1 gauss_index=2
+inside=1.000000,outside=0.998035
+side=2 gauss_index=0
+inside=1.000000,outside=1.011109
+side=2 gauss_index=1
+inside=1.000000,outside=1.004358
+side=2 gauss_index=2
+inside=1.000000,outside=0.997607
+sides 0 is 0.000000
+sides 1 is 0.497821
+sides 2 is -0.501089
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.984533
+side=1 gauss_index=1
+inside=1.000000,outside=0.991284
+side=1 gauss_index=2
+inside=1.000000,outside=0.998035
+side=2 gauss_index=0
+inside=1.000000,outside=1.011109
+side=2 gauss_index=1
+inside=1.000000,outside=1.004358
+side=2 gauss_index=2
+inside=1.000000,outside=0.997607
+sides 0 is 0.000000
+sides 1 is 0.248547
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=0.984533
+side=1 gauss_index=1
+inside=1.000000,outside=0.991284
+side=1 gauss_index=2
+inside=1.000000,outside=0.998035
+side=2 gauss_index=0
+inside=1.000000,outside=1.011109
+side=2 gauss_index=1
+inside=1.000000,outside=1.004358
+side=2 gauss_index=2
+inside=1.000000,outside=0.997607
+sides 0 is 0.000000
+sides 1 is 0.249274
+sides 2 is -0.250908
+side=0 gauss_index=0
+inside=1.009144,outside=0.985712
+side=0 gauss_index=1
+inside=0.995642,outside=0.996514
+side=0 gauss_index=2
+inside=0.982140,outside=1.007316
+side=1 gauss_index=0
+inside=0.980175,outside=0.864889
+side=1 gauss_index=1
+inside=0.986926,outside=0.924815
+side=1 gauss_index=2
+inside=0.993678,outside=0.984741
+side=2 gauss_index=0
+inside=0.997607,outside=1.000000
+side=2 gauss_index=1
+inside=1.004358,outside=1.000000
+side=2 gauss_index=2
+inside=1.011109,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.477935
+sides 2 is 0.501089
+side=0 gauss_index=0
+inside=1.009144,outside=0.985712
+side=0 gauss_index=1
+inside=0.995642,outside=0.996514
+side=0 gauss_index=2
+inside=0.982140,outside=1.007316
+side=1 gauss_index=0
+inside=0.980175,outside=0.864889
+side=1 gauss_index=1
+inside=0.986926,outside=0.924815
+side=1 gauss_index=2
+inside=0.993678,outside=0.984741
+side=2 gauss_index=0
+inside=0.997607,outside=1.000000
+side=2 gauss_index=1
+inside=1.004358,outside=1.000000
+side=2 gauss_index=2
+inside=1.011109,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.235381
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.009144,outside=0.985712
+side=0 gauss_index=1
+inside=0.995642,outside=0.996514
+side=0 gauss_index=2
+inside=0.982140,outside=1.007316
+side=1 gauss_index=0
+inside=0.980175,outside=0.864889
+side=1 gauss_index=1
+inside=0.986926,outside=0.924815
+side=1 gauss_index=2
+inside=0.993678,outside=0.984741
+side=2 gauss_index=0
+inside=0.997607,outside=1.000000
+side=2 gauss_index=1
+inside=1.004358,outside=1.000000
+side=2 gauss_index=2
+inside=1.011109,outside=1.000000
+sides 0 is 0.000000
+sides 1 is -0.242554
+sides 2 is 0.250182
+side=0 gauss_index=0
+inside=1.015467,outside=1.001572
+side=0 gauss_index=1
+inside=1.008716,outside=1.006973
+side=0 gauss_index=2
+inside=1.001965,outside=1.012374
+side=1 gauss_index=0
+inside=0.998035,outside=1.000000
+side=1 gauss_index=1
+inside=0.991284,outside=1.000000
+side=1 gauss_index=2
+inside=0.984533,outside=1.000000
+side=2 gauss_index=0
+inside=0.986498,outside=1.131311
+side=2 gauss_index=1
+inside=1.000000,outside=1.007408
+side=2 gauss_index=2
+inside=1.013502,outside=0.883506
+sides 0 is 0.000000
+sides 1 is -0.497821
+sides 2 is 0.501852
+side=0 gauss_index=0
+inside=1.015467,outside=1.001572
+side=0 gauss_index=1
+inside=1.008716,outside=1.006973
+side=0 gauss_index=2
+inside=1.001965,outside=1.012374
+side=1 gauss_index=0
+inside=0.998035,outside=1.000000
+side=1 gauss_index=1
+inside=0.991284,outside=1.000000
+side=1 gauss_index=2
+inside=0.984533,outside=1.000000
+side=2 gauss_index=0
+inside=0.986498,outside=1.131311
+side=2 gauss_index=1
+inside=1.000000,outside=1.007408
+side=2 gauss_index=2
+inside=1.013502,outside=0.883506
+sides 0 is 0.000000
+sides 1 is -0.249274
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.015467,outside=1.001572
+side=0 gauss_index=1
+inside=1.008716,outside=1.006973
+side=0 gauss_index=2
+inside=1.001965,outside=1.012374
+side=1 gauss_index=0
+inside=0.998035,outside=1.000000
+side=1 gauss_index=1
+inside=0.991284,outside=1.000000
+side=1 gauss_index=2
+inside=0.984533,outside=1.000000
+side=2 gauss_index=0
+inside=0.986498,outside=1.131311
+side=2 gauss_index=1
+inside=1.000000,outside=1.007408
+side=2 gauss_index=2
+inside=1.013502,outside=0.883506
+sides 0 is 0.000000
+sides 1 is -0.248547
+sides 2 is 0.256865
+i=0,time_now=0.053900,dt_now=0.053900
+[0]middle error
+0.055915 
+

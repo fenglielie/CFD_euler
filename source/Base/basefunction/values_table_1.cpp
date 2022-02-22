@@ -23,6 +23,20 @@ matrix jacobi(const Cell &the_cell)
     return result;
 }
 
+matrix inv_jacobi(const Cell &the_cell)
+{
+    matrix mar_j = jacobi(the_cell);
+    double det_j = mar_j[0][0] * mar_j[1][1] - mar_j[0][1] * mar_j[1][0];
+    matrix mar_invj = newMatrix(2, 2);
+
+    mar_invj[0][0] = mar_j[1][1];
+    mar_invj[1][1] = mar_j[0][0];
+    mar_invj[0][1] = -mar_j[0][1];
+    mar_invj[1][0] = -mar_j[1][0];
+
+    return 1.0 / det_j * mar_invj;
+}
+
 double jacobi_det_fabs(const Cell &the_cell)
 {
     matrix mar = jacobi(the_cell);
@@ -30,17 +44,7 @@ double jacobi_det_fabs(const Cell &the_cell)
     return fabs(det);
 }
 
-double coeff_for_dx(const Cell &the_cell)
-{
-    matrix mar = jacobi(the_cell);
-    return 1.0 / mar[0][0];
-}
 
-double coeff_for_dy(const Cell &the_cell)
-{
-    matrix mar = jacobi(the_cell);
-    return 1.0 / mar[1][1];
-}
 
 vector<double> get_cell_gaussweights(index gauss_k, index cellkind)
 {

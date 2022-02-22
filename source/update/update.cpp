@@ -59,8 +59,9 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
         testfun[i] = 0;
     }
 
-    static int debug_test = 0;
+   /* static int debug_test = 0;
     if (debug_test < 8) {
+        printf("[%d]\n",debug_test);
         printf("item_main\n");
         readMatrix(item_main);
         printf("item_Fu\n");
@@ -69,7 +70,7 @@ matrix update_kernel_cell(const Instance *the_instance_p, const supermatrix &the
         readMatrix(item_edge);
 
         debug_test++;
-    }
+    }*/
 
     // 以上给出了对于所有分量上的测试函数返回的结果，据此进行计算增量
     // 此后可以拆解各个分量进行

@@ -1,0 +1,2305 @@
+x_num=4, y_num=4
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=6,	node=(0.000000,0.000000)
+outs=(0.000000,-1.000000)
+[1] side=3, neighbor=2,	node=(0.500000,0.000000)
+outs=(0.707107,0.707107)
+[2] side=2, neighbor=3,	node=(0.000000,0.500000)
+outs=(-1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=7,	node=(0.500000,0.000000)
+outs=(0.000000,-1.000000)
+[1] side=5, neighbor=3,	node=(1.000000,0.000000)
+outs=(0.707107,0.707107)
+[2] side=4, neighbor=2,	node=(0.500000,0.500000)
+outs=(-1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=4,	node=(0.500000,0.500000)
+outs=(0.000000,1.000000)
+[1] side=3, neighbor=0,	node=(0.000000,0.500000)
+outs=(-0.707107,-0.707107)
+[2] side=4, neighbor=1,	node=(0.500000,0.000000)
+outs=(1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=5,	node=(1.000000,0.500000)
+outs=(0.000000,1.000000)
+[1] side=5, neighbor=1,	node=(0.500000,0.500000)
+outs=(-0.707107,-0.707107)
+[2] side=2, neighbor=0,	node=(1.000000,0.000000)
+outs=(1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=7, neighbor=2,	node=(0.000000,0.500000)
+outs=(0.000000,-1.000000)
+[1] side=10, neighbor=6,	node=(0.500000,0.500000)
+outs=(0.707107,0.707107)
+[2] side=9, neighbor=7,	node=(0.000000,1.000000)
+outs=(-1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=8, neighbor=3,	node=(0.500000,0.500000)
+outs=(0.000000,-1.000000)
+[1] side=12, neighbor=7,	node=(1.000000,0.500000)
+outs=(0.707107,0.707107)
+[2] side=11, neighbor=6,	node=(0.500000,1.000000)
+outs=(-1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=0, neighbor=0,	node=(0.500000,1.000000)
+outs=(0.000000,1.000000)
+[1] side=10, neighbor=4,	node=(0.000000,1.000000)
+outs=(-0.707107,-0.707107)
+[2] side=11, neighbor=5,	node=(0.500000,0.500000)
+outs=(1.000000,-0.000000)
+1.000000 0.000000 0.000000 
+cellKind = 3
+neighborNum = 3
+location flag = 0, visit flag = 0
+[0] side=1, neighbor=1,	node=(1.000000,1.000000)
+outs=(0.000000,1.000000)
+[1] side=12, neighbor=5,	node=(0.500000,1.000000)
+outs=(-0.707107,-0.707107)
+[2] side=9, neighbor=4,	node=(1.000000,0.500000)
+outs=(1.000000,-0.000000)
+init error
+0.000000 
+init error = 0.000000000000
+dt_now = 0.056904
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[0]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[1]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[2]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[3]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[4]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+[5]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 0.250000 0.000000 
+item_edge
+0.000000 0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[6]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+[7]
+item_main
+0.125000 0.041667 0.041667 
+item_Fu
+0.000000 -0.250000 0.000000 
+item_edge
+0.000000 -0.250000 0.000000 
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is 0.500000
+sides 2 is -0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is 0.250000
+sides 2 is -0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=1.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=1.000000
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=1.000000
+sides 0 is 0.000000
+sides 1 is -0.500000
+sides 2 is 0.500000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.112702
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.500000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.887298
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.000000
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.000000
+side=0 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=0 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=0.000000,values_2=0.000000
+side=1 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.112702
+side=1 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.500000
+side=1 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=-0.707107,values_2=0.887298
+side=2 gauss_index=0
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.887298
+side=2 gauss_index=1
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.500000
+side=2 gauss_index=2
+inside=1.000000,outside=1.000000
+values_1=1.000000,values_2=0.112702
+sides 0 is 0.000000
+sides 1 is -0.250000
+sides 2 is 0.250000
+i=0,time_now=0.056904,dt_now=0.056904
+[0]middle error
+0.000000 
+

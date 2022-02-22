@@ -20,6 +20,8 @@ double SurfaceIntegrate_init_inner_product(index gauss_k, const Cell &the_cell,
     return result;
 }
 
+
+
 double SurfaceIntegrate_init_inner_product(index gauss_k, index value_index, const Instance *the_instance_p, const Cell &the_cell,
                                            const vector<base_fun_type_2d> &base_funs, const vector<double> &u)
 {

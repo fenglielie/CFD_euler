@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
     printf("this is triangle Eg\n");
-
+    //freopen("out.txt", "w", stdout);
     THE_INSTANCE my_instance = THE_INSTANCE(); // 根据算例的类创造这个算例
     Instance *my_instance_p = &my_instance;
 
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     printf("x_num=%d, y_num=%d\n", x_num, y_num);
 
     index k = 1;
-    index gauss_k = 3;
+    index gauss_k = 5;
 
     double time_now = 0;
     double time_end = 1.0;
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     vector<double> init_args = {(double)k, (double)gauss_k};
     vector<double> dt_args = {0.1, (double)k};
     vector<double> update_args = {(double)k, 0, (double)gauss_k}; //第二个是dt
-    vector<double> error_args = {2, (double)gauss_k, 0};          // 2->L2 end_time=0
+    vector<double> error_args = {0, (double)gauss_k, 0};          // 2->L2 end_time=0
     vector<double> output_args;
     const char output_strs[3][DG_STR_LEN] = {"file1.txt", "file2.txt", "file3.txt"};
 
@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
 
         return 0;*/
 
-    //return 0;
+    // return 0;
 
     index i;
     for (i = 0; i < ITERATION_MAX && (exit_flag == false); ++i) {
@@ -112,6 +112,8 @@ int main(int argc, char *argv[])
             readVector(middle_error);
             printf("\n");
         }
+
+        //return 0;
     }
 
     // 这里先设置error_args

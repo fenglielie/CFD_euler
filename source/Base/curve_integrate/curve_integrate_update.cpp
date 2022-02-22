@@ -20,6 +20,10 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
         for (j = 0; j < cellkind; j++) {
             if (temp_sides[j] == sides[i]) break;
         }
+        if(j==cellkind){
+            printf("CurveIntegrate_update_edge data error\n");
+            printf("(%d,%d,%d)\n",temp_sides[0],temp_sides[1],temp_sides[2]);
+        }
         neighbors_side_local_index[i] = j;
     }
 
@@ -57,14 +61,20 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
                 inside_temp[j2] = inside_values[i][j2][j];
                 outside_temp[j2] = outside_values[i][j2][gauss_k - 1 - j]; //外侧反向错位
             }
+
+            //printf("side=%d gauss_index=%d\n",i,j);
+            //printf("inside=%f,outside=%f\n",inside_temp[0],outside_temp[0]);
+
             // 设置alpha
             alpha = 0;
             temp_Fu = fun_p->Fu_hat(inside_temp, outside_temp, alpha);
             //temp_Fu = fun_p->Fu(inside_temp);
             values_1[i][j] = temp_Fu[0][value_index] * out_directions[i][0] + temp_Fu[1][value_index] * out_directions[i][1];
+            //printf("values_1=%f,values_2=%f\n",values_1[i][j],values_2[i][j]);
         }
     }
 
+    vector<double> standlength = {1,sqrt(2),1};
     double result = 0;
     double side_result = 0;
     vector<double> weights;
@@ -75,7 +85,7 @@ double CurveIntegrate_update_edge(index gauss_k, const Fun *fun_p, const superma
             side_result = side_result + weights[j] * values_1[i][j] * values_2[i][j];
         }
         side_result = side_result * (side_lengths[i] / 2);
-
+        //printf("sides %d is %f\n",i,side_result);
         result = result + side_result;
     }
 

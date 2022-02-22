@@ -41,6 +41,7 @@ vector<double> init_cell(const Instance *the_instance_p, Cell &the_cell, int val
         }
         u1[i] = 0;
     }
+    readMatrix(A);
     the_cell.set_A_matrix(A);
 
 

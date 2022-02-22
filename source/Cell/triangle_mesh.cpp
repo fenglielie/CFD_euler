@@ -97,20 +97,23 @@ void period_modify_triangle_cells(vector<Cell> &the_cells, int flag)
 
         the_cells[11]._sides[1] = 2;
 
+
         the_cells[6]._neighbors[1] = 13;
         the_cells[13]._neighbors[1] = 6;
 
         the_cells[13]._sides[1] = 10;
+
 
         the_cells[9]._neighbors[1] = 1;
         the_cells[1]._neighbors[1] = 9;
 
         the_cells[9]._sides[1] = 5;
 
+
         the_cells[7]._neighbors[1] = 12;
         the_cells[12]._neighbors[1] = 7;
 
-        the_cells[12]._neighbors[1] = 13;
+        the_cells[12]._sides[1] = 13;
     }
 
     printf("check after modify\n");
